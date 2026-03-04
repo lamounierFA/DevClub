@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* input{
+    border: 1px solid blue;
+    color: brown;
+}
+
+input::placeholder{
+    color: aqua;
+}
+
+p{
+    color: chartreuse;
+}
+
+p::first-line{
+    color: red;
+} */
+
+a{
+    color: blue;
+}
+
+a::before{
+    content: 'depois';
+}
+
+a::after{
+    content: 'antes';
+}
